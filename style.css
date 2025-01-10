@@ -1,0 +1,50 @@
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        height: 100vh; /* Fixed height at 100vh */
+        margin: 0;
+        overflow: hidden; /* Disable native scrolling */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 5s ease
+    }
+    
+    .container {
+        width: 80%;
+        text-align: left;
+    }
+    
+    #display {
+        font-size: 24px;
+        font-weight: bold;
+        color: #000;
+        line-height: 1.5;
+        transition: color 5s ease; /* 5-second smooth fade for both background and text color */
+    }
+
+    @keyframes swim-left {
+        from {
+            left: 100%;
+        }
+        to {
+            left: -150px;
+        }
+    }
+
+    @keyframes swim-right {
+        from {
+            left: -150px;
+        }
+        to {
+            left: 100%;
+        }
+    }
+
+    .fish {
+        position: absolute;
+        bottom: 0;
+        z-index: 5;
+    }
+    
