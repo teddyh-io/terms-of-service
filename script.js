@@ -170,10 +170,10 @@ function createStars(numberOfStars) {
     // Function to create swimming fish once we reach the ocean blue background
     function createFish() {
         const fishImages = [
-            { src: 'terms-of-service/img/fish1.png', direction: 'left-to-right' },
-            { src: 'terms-of-service/img/fish2.png', direction: 'right-to-left' },
-            { src: 'terms-of-service/img/fish3.png', direction: 'right-to-left' },
-            { src: 'terms-of-service/img/fish4.png', direction: 'left-to-right' }
+            { src: 'img/fish1.png', direction: 'left-to-right' },
+            { src: 'img/fish2.png', direction: 'right-to-left' },
+            { src: 'img/fish3.png', direction: 'right-to-left' },
+            { src: 'img/fish4.png', direction: 'left-to-right' }
         ];
     
         fishImages.forEach(fish => {
